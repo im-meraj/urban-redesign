@@ -1,0 +1,93 @@
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeeeee;
+    margin-top: 120px;
+}
+
+main .img__container {
+    height: 50px;
+    width: 70px;
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+}
+
+main #one,
+main #six {
+    width: 50px;
+    height: 180px;
+    background-color: red;
+}
+
+main #one {
+    position: absolute;
+    background-color: rebeccapurple;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    background-image: url("https://images.pexels.com/photos/5384138/pexels-photo-5384138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+main #six {
+    position: absolute;
+    background-color: rebeccapurple;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    background-image: url("https://images.pexels.com/photos/5097418/pexels-photo-5097418.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+main #holder1 {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translate(0, -50%);
+}
+
+main #holder2 {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translate(0, -50%);
+}
+
+main .holder div {
+    margin-top: 20px;
+}
+
+#videoplayer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    min-height: 400px;
+    overflow: hidden;
+    /* background-color: seagreen; */
+}
+
+#videoplayer video {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+main #two {
+    background-image: url("https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+main #three {
+    background-image: url("https://images.pexels.com/photos/1437493/pexels-photo-1437493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+main #four {
+    background-image: url("https://images.pexels.com/photos/3637834/pexels-photo-3637834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+main #five {
+    background-image: url("https://images.pexels.com/photos/4792479/pexels-photo-4792479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
